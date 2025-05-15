@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f7f0;
+    color: #5a3d2b;
+}
+
+header, main, footer {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #e75480;
+    text-align: center;
+}
+
+.flower-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #7bc043;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #5a9e2e;
+    transform: translateY(-2px);
+}
+
+.flower-card {
+    padding: 15px;
+    border: 2px solid #f9a1bc;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #e75480;
+}
